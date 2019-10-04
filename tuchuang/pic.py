@@ -38,7 +38,7 @@ class Picbed :
         print(re_str)
         pyperclip.copy(self.Url[0])
             
-obj = Picbed("deng-feng", "oss-cn-beijing.aliyuncs.com", "LTAI4Fbiqo58HHBK4BtTKQCP", "xoD9VI60gNQFzIIrOIhbJmHrx9Zhom")
+obj = Picbed("xxxxxx", "oss-cn-xxxxxx.aliyuncs.com", "xxxxxxxxxxxxxxxxx", "xxxxxxxxxxxxxxxxx")
 if len(sys.argv) > 1:
     for i in range(1, len(sys.argv)):
         objfile = sys.argv[i]
