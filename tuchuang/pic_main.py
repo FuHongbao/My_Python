@@ -28,7 +28,7 @@ def gen_remote_name(srcname):
     return "%s/%s/%s" % (data, name, srcname[-1])
 
 if __name__ == "__main__":
-    up = pic2.Picbed()
+    up = pic2.Picbed("xxx", "xxx", "xxx", "xxx")
     if len(sys.argv) == 1:
         im = pyperclip.paste()
         srcname = im

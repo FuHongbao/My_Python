@@ -16,8 +16,7 @@ class Picbed :
     __ACCESS_KEY_ID = ""
     __ACCESS_KEY_SECRET = ""
 
-    def __init__(self, name = "deng-feng", point = "oss-cn-beijing.aliyuncs.com"
-, id = "LTAI4Fbiqo58HHBK4BtTKQCP", secret = "xoD9VI60gNQFzIIrOIhbJmHrx9Zhom"):
+    def __init__(self, name, point, id, secret):
         self.BUCKET_NAME = name
         self.ENDPOINT = point 
         self.__ACCESS_KEY_ID = id
